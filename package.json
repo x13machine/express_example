@@ -2,10 +2,6 @@
   "name": "express_example",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
-  "start": "node app.js",
   "engines": {
     "node": "0.10.x"
   },
@@ -15,7 +11,8 @@
     "stylus": "0.32.1"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node app.js"
   },
   "devDependencies": {
     "mocha": "1.15.1"
